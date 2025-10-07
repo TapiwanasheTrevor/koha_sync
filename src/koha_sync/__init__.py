@@ -1,0 +1,3 @@
+"""
+Koha endpoint service package.
+"""
