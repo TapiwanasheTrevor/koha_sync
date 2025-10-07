@@ -3,9 +3,3 @@ uvicorn[standard]==0.29.0
 pyodbc==5.1.0
 python-dotenv==1.0.1
 pydantic==2.6.4
-
-
-DB_CONNECTION_STRING="Driver={ODBC Driver 17 for SQL Server};Server=MITCSERVER2;Database=MITC ZIG;Uid=sa;Pwd=fl815100%;"
-STUDENTS_QUERY=SELECT ClientCode AS reg_no, GivenNames AS first_name, Surname AS surname, EmailAddress AS email, Mobile AS phone, Programme AS course, LevelName AS level FROM dbo.Clients
-KOHA_BRANCH=MAIN
-KOHA_CATEGORY=STUD
